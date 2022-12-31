@@ -1,0 +1,36 @@
+@media(max-width:991px){
+	button.navbar-toggler {
+	    padding: 0;
+	    margin: 0;
+	    border: 0;
+	    outline: none !important;
+	    box-shadow: none !important;
+	}
+	.navbar-dark .navbar-nav .nav-item{
+		padding-left: 0;
+	}
+	div#navbarSupportedContent {
+	    position: absolute;
+	    left: 0;
+	    top: 100%;
+	    z-index: 99;
+	    width: 100%;
+	    background: #0e4c87;
+	    padding: 0 16px;
+	}
+	.flip-box-back h4{
+		font-size: 13px;
+		font-weight: normal;
+		line-height: 14px;
+		margin-bottom: 0;
+	}
+	.flip-box-back p{
+		display: none;
+	}
+}
+@media(max-width:767px){
+	.flip-box-back h4{
+		font-size: 12px;
+	}
+
+}
